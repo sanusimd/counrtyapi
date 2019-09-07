@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Countries Api</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -21,14 +23,35 @@
                     <i class="fas fa-search"></i>
                     <input type="text" name="search" placeholder="search for Country...">
                 </div>
-                <div class="filter">
-                    Filter by Region
-                    <i class="fas fa-chevron-down"></i>
+                <div id="filter-box">
+                    <div class="filter">
+                        Filter by Region
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <ul class="filter-list">
+                        <li class="africa">Africa</li>
+                        <li class="america">America</li>
+                        <li class="asia">Asia</li>
+                        <li class="europe">Europe</li>
+                        <li class="oceania">Africa</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="countries-list">
+            <div class="country-box">
+                <img src="img/germany.png">
+                <div class="country-info">
+                    <h1>Germany</h1>
+                    <p>Population: 81.770,900</p>
+                    <p>Region: Europe</p>
+                    <p>Capital: Berlin</p>
                 </div>
             </div>
-
-
         </div>
     </div>
 </body>
+
 </html>

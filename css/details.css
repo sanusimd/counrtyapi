@@ -1,0 +1,112 @@
+@import "../css/reset.css";
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import'https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap';
+
+:root {
+    --very-light-gray: hsl(0, 0%, 98%);
+    --dark-gray: hsl(0, 0%, 52%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-blue: hsl(200, 15%, 8%);
+
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+   
+
+}
+
+.container {
+    width: 1440px;
+   
+}
+
+/* header section start */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(133, 133, 133, 0.66);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(133, 133, 133, 0.66);
+    box-shadow: 0px 8px 9px -1px rgba(133, 133, 133, 0.66);
+    background: var(--white);
+    /* border: none; */
+    /* border-bottom: 1px solid rgba(133,133,133,0.66); */
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+header p {
+    font-weight: 600;
+}
+
+/* header section end */
+
+/* main section start */
+.main-section {
+    background: var(--very-light-gray);
+    padding: 30px;
+    
+}
+
+.main-section .back-home{
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+   border: 1px solid var(--very-light-gray);
+   display: inline-block;
+   -webkit-box-shadow: -1px 0px 9px -1px rgba(133, 133, 133, 0.66);
+   -moz-box-shadow: -1px 0px 9px -1px rgba(133, 133, 133, 0.66);
+   box-shadow: -1px 0px 9px -1px rgba(133, 133, 133, 0.66);   
+}
+
+.main-section .back-home .fas{
+    margin-right: 10px;
+    font-size: 18px; 
+}
+
+.main-section .back-home span{
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+
+.main-section .country-details{
+display: flex;
+justify-content: space-evenly ;
+}
+
+.main-section .country-details .country-flag {
+width: 650px;
+height: 450px;
+/* background: #000; */
+
+}
+.main-section .country-details .country-flag img{
+    
+    width: 650px;
+    height: 450px;
+}
+
+.main-section .country-details .countries-info h1{
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+
+
+
+footer{
+    background:  var(--very-light-blue);
+    text-align: center;
+    padding: 30px;
+    color: var(--white);
+}
